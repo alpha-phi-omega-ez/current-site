@@ -1,0 +1,110 @@
+.manageTests {
+  border-radius: 25px;
+  border: 2px solid #f7b512;
+  background: #ffe7aa;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  align-items: center;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+
+.manageTests form {
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#splace{
+  width: 100%;
+}
+
+#shere {
+  width: 100%;
+}
+
+.manageTests h1 {
+  margin: 0px;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding-left: 8px;
+  padding-bottom: 3px;
+  margin-bottom: 6px;
+  font-size: 24px;
+  width: 100%;
+  border-bottom: 2px solid #f7b512;
+}
+
+.testCourse {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.seasonRadios {
+  border: 1px solid #f7b512;
+  width: 25%;
+  max-width: 230px;
+  min-width: 130px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.testType {
+  width: 100%;
+}
+
+#feedback {
+  width: 80%;
+  margin: auto;
+}
+
+#feedback .negative {
+  border: 2px solid red;
+  border-radius: 10px;
+  margin-bottom: 6px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  display: block;
+  background: #ffcaca;
+}
+
+#feedback .positive {
+  border: 2px solid green;
+  border-radius: 10px;
+  margin-bottom: 6px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  display: block;
+  background: #bcffbc;
+  animation: fadeout 2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeout {
+  from {opacity: 1;}
+  85% {
+    opacity: 0;
+    margin-bottom: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: auto;
+    display: none;
+  }
+  100% {
+    opacity: 0;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 0px;
+    display: none;
+  }
+}

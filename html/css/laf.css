@@ -1,0 +1,238 @@
+.lafContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 10px;
+  align-content: center;
+  justify-content: center;
+}
+
+.lafMenu {
+  display: block;
+  float: left;
+  overflow: hidden;
+  border: 2px solid #f7b512;
+  border-radius: 25px;
+  width: 12%;
+  min-width: 175px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  height: max-content;
+}
+
+.lafButton {
+  display: block;
+  float: left;
+  width: 100%;
+  font-size: 14pt;
+}
+
+form {
+  padding-top: 15px;
+}
+
+.found, .report, .searchItems, .searchReports {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+
+.tabContainer {
+  display: block;
+  float: left;
+  width: 80%;
+  margin-left: 10px;
+}
+
+#submitFoundButton:checked ~ .tabContainer .found, #submitLostButton:checked ~ .tabContainer .report, #searchFoundButton:checked ~ .tabContainer .searchItems, #searchLostButton:checked ~ .tabContainer .searchReports {
+  display: block;
+  opacity: 1;
+  position: static;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 2px solid #f7b512;
+  border-radius: 25px;
+}
+
+#foundButton, #lostButton, #searchLost, #searchFound {
+  padding-left: 6px;
+}
+
+#submitFoundButton:checked ~ .lafMenu #foundButton, #submitLostButton:checked ~ .lafMenu #lostButton, #searchFoundButton:checked ~ .lafMenu #searchFound, #searchLostButton:checked ~ .lafMenu #searchLost{
+  border: 2px solid #0033ab;
+  border-radius: 10px;
+  background: #96b4f8;
+  padding-left: 3px;
+  width:95%
+}
+
+[name="lafMenuSelection"] {
+  position: absolute;
+  display: none;
+  opacity: 0;
+}
+
+.lafMenu h1 {
+  margin-top: 3px;
+  margin-bottom: 5px;
+  border-bottom: 2px solid #f7b512;
+}
+
+.positive {
+  border: 2px solid green;
+  border-radius: 15px;
+  padding-left: 15px;
+  font-size: 15pt;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  margin-top: 5px;
+  animation: fadeout 2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+.positiveNoFade {
+  border: 2px solid green;
+  border-radius: 15px;
+  padding-left: 15px;
+  font-size: 15pt;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  margin-top: 5px;
+}
+
+@keyframes fadeout {
+  from {opacity: 1;}
+  85% {
+    opacity: 0;
+    margin-bottom: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: auto;
+    display: none;
+  }
+  100% {
+    opacity: 0;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 0px;
+    display: none;
+  }
+}
+
+.negative {
+  border: 2px solid red;
+  border-radius: 15px;
+  padding-left: 15px;
+  font-size: 15pt;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  margin-top: 5px;
+}
+
+.addedTagsContainer {
+  display: flex;
+  border: 2px solid #0033ab;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-top: 3px;
+  padding-bottom:5px;
+}
+
+.addedFoundTags, .addedLostTags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  border: 2px solid #0033ab;
+  background: #96b4f8;
+  border-radius: 5px;
+  margin-right:4px;
+  margin-top: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
+
+.tag input.removeTag {
+  margin-left: 3px;
+}
+
+.emptyTagsText {
+  display: none;
+  opacity: 0;
+}
+
+.addedFoundTags:empty + .emptyTagsText, .addedLostTags:empty + .emptyTagsText {
+  display: block;
+  opacity: 1;
+}
+
+#foundForm {
+  padding-left: 0px;
+}
+
+.searchTableContainer table {
+  width: 100%;
+  border: 2px solid #0033ab;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+.searchTableContainer table td{
+  border: 1px solid #96b4f8;
+  border-spacing: 0px;
+  padding-left: 5px;
+}
+
+.searchTableContainer table th {
+  border: 2px solid #0033ab;
+  background: #0033ab;
+  color: #f7b512;
+}
+
+.searchTableContainer table tr:nth-child(even) {
+  background-color: #96b4f8;
+}
+
+.emtpyLocations {
+  opacity: 0;
+  display: none;
+}
+
+.selectedLocations:empty + .emtpyLocations {
+  display: block;
+  opacity: 1;
+}
+
+.reportLocations {
+  border: 2px solid #0033ab;
+  padding-left: 8px;
+  border-radius: 12px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-right: 12px;
+  display: block;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.selectedLocations {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.possloc {
+  margin-right: 3px;
+  border: 2px solid grey;
+  padding-left: 3px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 6px;
+}

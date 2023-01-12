@@ -1,0 +1,19 @@
+.accountForm {
+  border: 2px solid #f7b512;
+  border-radius: 12px;
+  width: 40%;
+  margin: auto;
+  margin-top: 36px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.accountDiv {
+  width: 100%;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
