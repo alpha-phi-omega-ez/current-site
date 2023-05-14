@@ -1,3 +1,3 @@
 # current-site
 
-Changes don't reploy automatically
+Changes don't deploy automatically
