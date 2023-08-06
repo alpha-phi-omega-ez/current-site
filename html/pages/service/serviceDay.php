@@ -14,7 +14,7 @@ startSession();
 	<h1>Service Day</h1>
         <p>Service Day will be hosted by APO on September 30th to connect RPI students 
 	with organizations in the community to help make a difference. This will be our 
-	third Service Day and first after the pandemic, we are planning to do service at the 
+	fourth annual Service Day, we are planning to do service at the 
 	Regional Food Bank, Frear Park, Northern Rivers, Sanctuary for Independent Media, Mohawk Hudson Humane Society, 
 	and card-making on campus for soldiers. Food and transportation will be 
 	provided to all participants. Sign up below and view our poster below the signup. </p>
