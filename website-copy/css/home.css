@@ -1,0 +1,68 @@
+body {
+  margin: 0px;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+
+#header {
+  width: calc(100% - 24px);
+  background-color: lightskyblue;
+  padding: 12px;
+}
+
+#header_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+#homepageImg {
+  display: block;
+  width: 100%;
+}
+
+#main {
+  width: 60%;
+  padding: 0px 20%;
+  min-height: 1024px;
+  margin-bottom: 48px;
+}
+
+.col {
+  padding: 0 32px;
+}
+
+#footer {
+  width: 60%;
+  padding: 32px 20%;
+  height: 256px;
+  background-color: RGB(0, 51,171); /* RGB(247,181,18); */
+}
+
+#footer div {
+  float: left;
+  width: calc(25% - 32px);
+  padding: 0 16px;
+  height: 100%;
+}
+
+#social p {
+  margin: 16px 0;
+  font-size: 24px;
+  color: RGB(247,181,18);
+}
+
+#social a {
+  display: block;
+  color: lightgray; /* RGB(0, 51,171); */
+  text-decoration: none;
+}
+
+#rush_calendar_img {
+  display: block;
+  width: 958px;
+  height: auto;
+  margin: auto;
+}
+
+
