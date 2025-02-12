@@ -73,7 +73,7 @@
       </div>
       <div class="section">
         <p>Events</p>
-        <a href="/pages/events/rush.php">Rush Events</a>
+        <a href="/pages/events/recruitment.php">Recruitment Events</a>
         <a href="/pages/events/calendar.php">Calendar</a>
       </div>    
     </div>

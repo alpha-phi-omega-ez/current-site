@@ -27,7 +27,7 @@ startSession();
 	 a week and we are more the happy to invite you along or help you host an 
 	event for your members, just reach out to <a href="mailto:service@apoez.org">service@apoez.org</a> and if 
 	you are an individual interested in doing more with us you may want to consider 
-	<a href = "https://www.apoez.org/pages/membership/joinAPO.php">pledging!</a> 
+	<a href = "https://www.apoez.org/pages/membership/joinAPO.php">joining!</a> 
       </div>
     </div>
   </body>

@@ -24,6 +24,11 @@ startSession();
         <h1>Chapter Distinguished Service Key (DSK)</h1>
         <p>A black service key on a light blue ribbon presented to a person who has distinguished themselves through outstanding service to their chapter. Recipients have made an outstanding and unique contribution to the chapter as a whole; exemplify and demonstrate the cardinal principles of leadership, friendship and service; and made a sustained contribution in a leadership role over a period of time. Chapter DSKs are often presented at a chapter banquet or semiformal. Below is a list of past recipients of the DSK from our chapter starting with the most recent:</p>
 	<div class='recipients'>
+	  <p>Kedaar Iyer</p>
+          <p>Christopher Dostilio</p>
+	  <p>Samael Collins</p>
+	  <p>Rafael Cenzano</p>
+          <p>Jetta McPhee</p>
           <p>Jacob Tehranian</p>
           <p>Alexander Fung</p>
           <p>Glenn Edmonds</p>

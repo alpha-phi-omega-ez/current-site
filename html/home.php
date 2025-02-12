@@ -11,7 +11,7 @@ startSession();
 
   <?php require_once("../templates/navbar.php")?>
   <body>
-    <img id="homepageImg" src="images/APO_Membership_Photo_2022.jpg">
+    <img id="homepageImg" src="images/APO_Awards.JPG">
   </body>
   <?php require_once("../templates/footer.php")?>
 </html>

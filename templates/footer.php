@@ -10,7 +10,6 @@
         <p>Social</p>
         <a href="https://www.facebook.com/APOatRPI/">Facebook</a>
         <a href="https://www.instagram.com/apoez_rpi/">Instagram</a>
-        <a href="https://twitter.com/apoez">Twitter</a>
         <a href="https://www.youtube.com/channel/UCO0aoPiinmDPrVOd1w0RKjw">Youtube</a>
       </div>
     </div>

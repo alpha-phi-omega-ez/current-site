@@ -14,7 +14,7 @@ startSession();
       <div class="col">
 	<h1>Our Service</h1>
         <p>During our 75 years we have received the Dean Arno Nowotny, an APO national service award, 
-	a record breaking 5 times. Our chapter has a huge focus on helping our community and always have a 
+	a record breaking 6 times. Our chapter has a huge focus on helping our community and always have a 
 	focus on service. We currently run the campus 
 	<a href = "https://www.apoez.org/laf.php">Lost and Found</a>, 
 	<a href = "https://www.apoez.org/backtest.php">Backtest Service</a>, and 
