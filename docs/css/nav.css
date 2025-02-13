@@ -1,0 +1,122 @@
+
+#nav {
+  /* display: inline-block; */
+  width: 60%;
+  height: 48px;
+  padding: 0 20%;
+  background-color: #f7b512;
+}
+
+/* #nav a {
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+} */
+
+/* #nav > * {
+  float: left;
+} */
+
+.dropdown, .homeNav {
+  float: left;
+  height: 100%;
+  transition: background 0.25s linear;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  height: 100%;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: RGB(0, 51,171); /* eaab0d; */
+}
+
+.dropdown-content {
+  position: absolute;
+  left: 0;
+  background-color: RGB(0, 51,171); /* f9f9f9; */
+  min-width: 160px;
+  width: 60%;
+  padding: 0 20%;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+}
+
+.section {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(30% - 64px);
+  padding: 0 32px;
+  padding-bottom: 32px;
+}
+
+.section p {
+  margin: 16px 0;
+  font-size: 16px;
+  color: white;
+}
+
+.section a {
+  color: lightgray;
+  padding: 2px 0px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 15px;
+}
+
+.section a:hover {
+  background-color: RGB(0, 51,171);
+}
+
+.dropdown-content a:hover {
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0.25s, opacity 0.25s linear;
+  transition-delay: 0s;
+}
+
+.login {
+  height: 100%;
+  float: right;
+  transition: background 0.25s linear;
+  overflow: hidden;
+}
+
+.login a, .homeNav a {
+  text-decoration: none;
+}
+
+.login #loginbtn, .homeNav #homeBtn {
+  height: 100%;
+  display: block;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0px 32px;
+  line-height: 48px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.login:hover #loginbtn, .homeNav:hover #homeBtn {
+  background-color: RGB(0, 51,171); /* eaab0d; */
+  cursor: pointer;
+}

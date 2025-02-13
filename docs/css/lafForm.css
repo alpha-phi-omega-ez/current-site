@@ -1,0 +1,102 @@
+.report {
+  border: 2px solid #f7b512;
+  border-radius: 16px;
+  padding-left: 12px;
+  padding-top: 16px;
+  width: auto;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.report h1 {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  margin-right: 12px;
+  border-bottom: 2px solid #f7b512;
+}
+
+.report form {
+  width: 100%;
+}
+
+.positive {
+  border: 2px solid green;
+  border-radius: 15px;
+  padding-left: 15px;
+  font-size: 15pt;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  margin-top: 5px;
+  animation: fadeout 2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeout {
+  from {opacity: 1;}
+  85% {
+    opacity: 0;
+    margin-bottom: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: auto;
+    display: none;
+  }
+  100% {
+    opacity: 0;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 0px;
+    display: none;
+  }
+}
+
+.negative {
+  border: 2px solid red;
+  border-radius: 15px;
+  padding-left: 15px;
+  font-size: 15pt;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  margin-top: 5px;
+}
+
+.emtpyLocations {
+  opacity: 0;
+  display: none;
+}
+
+.selectedLocations:empty + .emtpyLocations {
+  display: block;
+  opacity: 1;
+}
+
+.reportLocations {
+  border: 2px solid #0033ab;
+  padding-left: 8px;
+  border-radius: 12px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-right: 12px;
+  display: block;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.selectedLocations {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.possloc {
+  margin-right: 3px;
+  border: 2px solid grey;
+  padding-left: 3px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 6px;
+}

@@ -1,0 +1,115 @@
+h3 {
+  padding-left: 8%;
+}
+
+.backContainer {
+  border-radius: 25px;
+  border: 2px solid #f7b512;
+  background: #ffe7aa;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.searchTitle {
+  border-left: 1px solid #f7b512;
+}
+
+.dropTitle, .searchTitle {
+  float: left;
+  display: block;
+  width: 49%;
+  text-align: center;
+  font-size: 10px;
+}
+
+.dropContainer {
+  float: left;
+  display: block;
+  width: 49%;
+  height: inherit;
+  text-align: center;
+  border-right: 1px solid #f7b512;
+}
+
+.searchContainer {
+  float: left;
+  display: block;
+  width: 49%;
+  text-align: center;
+}
+
+.returnedWork {
+  border-radius: 25px;
+  display: flex;
+  border: 2px solid #f7b512;
+  width: calc(80% - 20px);
+  margin: auto;
+  margin-top: 10px;
+  overflow: hidden;
+  padding: 10px;
+  flex-wrap: wrap;
+  background: #ffe7aa;
+}
+
+.returnedWork h1 {
+  width: 100%;
+  font-size: 24pt;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 12px;
+}
+
+.backtestDiv {
+  float: left;
+  display: block;
+  width: 24.5%;
+  margin-left: 0.25%;
+  margin-right: 0.25%;
+  border: 2px solid #0033ab;
+  background: #96b4f8;
+  text-align: center;
+  border-radius: 15px;
+  min-width: 200px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.bDivTitle {
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.retunedClass {
+  width: inherit;
+  padding-left: 10px;
+}
+
+.courseName {
+  display: inline-block;
+  border: 2px solid #0033ab;
+  text-decoration: none;
+  height: 24pt;
+  width: 50%;
+  min-width: 300px;
+  text-align: left;
+  background: #96b4f8;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition-duration: 0.05s;
+}
+
+.courseName:hover {
+  background:#295bcc;
+  color: white;
+}
+
+.deleteTest {
+  margin-left: 4px;
+}
